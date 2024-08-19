@@ -10,8 +10,6 @@ function Movies(props) {
 
     const [movieDetails, setMovieDetails] = React.useState([])
 
-    
-
     // Logic to connect to back end(http://localhost:9000/fetch/all/movies)
     Axios.get("https://movie-booking-application-back-end.onrender.com/fetch/all/movies")
         .then(function (result) {
@@ -55,3 +53,14 @@ function Movies(props) {
 }
 
 export default Movies
+
+// build ==> A three file that will be created for the entire project
+
+// 50 components
+//Component => HTML, Javascript, Css
+//Component => HTML, Javascript
+// .....................
+// Compress --> 3 files
+// HTML file, CSS file and Javascript file
+
+// build folder
